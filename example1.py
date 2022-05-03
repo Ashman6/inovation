@@ -1,4 +1,1 @@
-
-
-
-print("hello guys")
+print("my examples")
