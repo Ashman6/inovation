@@ -1,13 +1,11 @@
+# activiy 1
+
 # import random
-# message = "welcome to code nation!"
+message = "welcome to code nation!"
 
-# # mylist = ["apple", "banana", "cherry"]
-# # x = len(mylist)
-# # print(x)
+x = len(message)
 
-# x = len(message)
-
-# print(x)
+print(x)
 
 
 
@@ -18,38 +16,15 @@
 
 alphabet =['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-for x in alphabet:
-    print(x)
+for i in alphabet:
+    print(i)
 
-answer=input ("please choose a number from 1 to 26......"   )
+alph_num = (int)(input("pick a number from 1 to 26 and i will tell you what letter it matches in the alphabet......"))    
 
-if answer == alphabet:
-    print(alphabet)
-    ord(alphabet)
+def alph_letter():
+    print(alphabet[alph_num])
 
-    user_choice= None
-
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-
-if answer == user_choice:
-    print ord(alphabet)
-
-x = alphabet.index(user_choice)
-
-print(user_choice)
-
-
-
-
-
-
-# alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-# x = len(alphabet)
-# print(x)
-
-    
-# name = input("enter you name.....")
-# print(f"welcome to your doom {name} procede if you dare!")
+alph_letter()    
 
 
 
