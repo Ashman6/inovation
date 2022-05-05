@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap'); */
+
+@font-face{
+    font-family:organ;
+    src: url(CHERL___.TTF);
+}
+
+@font-face{
+    font-family:organs;
+    src: url(CHERI___.TTF);
+}
+
+*{
+    font-family: 'organs', cursive;
+}
+
+
+p{
+    font-family: 'organ', cursive;
+}
+
+*{
+    background-color: rgb(199, 33, 33);
+}
+h2{
+    color:blue
+}
+
+h1{
+    color:red
+}
+
+#navbar{
+   background-color: grey;
+}
+
+a{
+color:red
+}
+
+
+
+a:hover{
+color: black;
+}
+
+a:active{
+    color:green
+ } 
+
+/* a:visited{
+    color:yellow
+} */
+
+/* .content{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    color:red;
+    font-family: 'organs',cursive;
+} */
+
+
+h1{
+    display: flex;
+    /* flex-direction: center; */
+    justify-content: center;
+    color:red;
+    font-family: 'organs',cursive;
+}
