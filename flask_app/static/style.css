@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(219, 130, 20);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}

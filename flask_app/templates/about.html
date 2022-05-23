@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>about me page</h1>
+<h3>favourite songs</h3>
+<p>{{ songs }}</p>
+
+
+
+{% if "Radiohead" in bands %}
+<h1>{{ bands[0] }}</h1>
+{% else %}
+{% for x in bands %}
+<h3>{{ x }}</h3>
+{% endfor %}
+{% endif %}
+
+
+
+<form action="/about" method="post">
+    <input type="text" name="add_band" id="band_add" placeholder="enter the band you wish to add!">
+    <button type="submit" style="display: none;">submit</button>
+</form>
+
+{% endblock %}
